@@ -5,16 +5,23 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className='App'>
-      <div id='title'>
-        A simple counter
+    <div>
+      <div className='counter'>
+        <div id='title'>
+          A simple counter
+        </div>
+        Count: {count}
+        <br /><br />
+        <button id='incrBtn' onClick={() => {setCount(count + 1);}}>Increment</button>
+        <button id='decrBtn' onClick={() => {setCount(count - 1);}} disabled={count === 0}>Decrement</button>
+        <button id='rstBtn' onClick={() => {setCount(0);}} disabled={count === 0}>Reset</button>
       </div>
-      Count: {count}
-      <br /><br />
-      <button id='incrBtn' onClick={() => {setCount(count + 1);}}>Increment</button>
-      <button id='decrBtn' onClick={() => {setCount(count - 1);}} disabled={count === 0}>Decrement</button>
-      <button id='rstBtn' onClick={() => {setCount(0);}} disabled={count === 0}>Reset</button>
+      <div id='dev-info'>
+        <br />
+        Made by Shivam Tadas
+      </div>
     </div>
+    
   );
 }
 
