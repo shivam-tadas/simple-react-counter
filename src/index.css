@@ -1,5 +1,5 @@
 body {
-  height: 95vh;
+  height: 97vh;
   padding: 5%;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, Arial, 'Roboto', 'Oxygen',
@@ -7,6 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(45deg, hsl(331, 100%, 90%), hsl(202, 100%, 90%));
+  background-image: linear-gradient(45deg, hsl(330, 100%, 90%), hsl(200, 100%, 90%));
   background-repeat: no-repeat;
 }

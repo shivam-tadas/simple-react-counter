@@ -17,11 +17,10 @@ function App() {
         <button id='rstBtn' onClick={() => {setCount(0);}} disabled={count === 0}>Reset</button>
       </div>
       <div id='dev-info'>
-        <br />
+        <br /><br />
         Made by Shivam Tadas
       </div>
     </div>
-    
   );
 }
 
