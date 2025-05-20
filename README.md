@@ -1,12 +1,10 @@
 # Simple Counter App
-A simple React app featuring a counter that can be incremented or decremented using interactive buttons. This project showcases a custom CSS styling approach.
+A simple React app featuring a counter that can be incremented or decremented using buttons.
+This project was made to practice and improve upon my CSS and design skills.
 
 ## Features
 * Simple and intuitive counter functionality
-* Custom CSS styling for a personalized look and feel
-
-## Usage
-Feel free to copy, modify, and use this application as per your requirements.
+* Custom CSS styling for a beautiful and modern look and feel
 
 # Getting Started with Create React App
 
